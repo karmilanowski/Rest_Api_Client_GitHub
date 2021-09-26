@@ -29,7 +29,7 @@ public class Config {
                 .build();
     }
     @Bean
-    ProfileHttpClient productHttpClient(RestTemplate restTemplate, @Value("${product.http.client.config.uri:http://example.com}") String uri){
+    ProfileHttpClient profileHttpClient(RestTemplate restTemplate, @Value("${product.http.client.config.uri:http://example.com}") String uri){
         return new ProfileHttpClient(restTemplate,uri);
     }
 }
