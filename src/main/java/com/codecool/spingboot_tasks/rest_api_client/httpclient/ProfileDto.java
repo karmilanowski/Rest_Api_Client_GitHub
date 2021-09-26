@@ -1,4 +1,4 @@
-package com.codecool.spingboot_tasks.rest_api_client.httpclient.client;
+package com.codecool.spingboot_tasks.rest_api_client.httpclient;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.*;

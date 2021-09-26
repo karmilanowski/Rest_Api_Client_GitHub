@@ -19,8 +19,8 @@ public class Config {
     }
 
     @Bean
-    RestTemplate restTemplate(@Value("${product.http.client.config.connectionTimeout}") long connectionTimeout,
-                              @Value("${product.http.client.config.readTimeout}") long readTimeout,
+    RestTemplate restTemplate(@Value("${profile.http.client.config.connectionTimeout}") long connectionTimeout,
+                              @Value("${profile.http.client.config.readTimeout}") long readTimeout,
                               RestTemplateResponseErrorHandler errorHandler){
         return new RestTemplateBuilder()
                 .errorHandler(errorHandler)

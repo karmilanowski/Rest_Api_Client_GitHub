@@ -1,5 +1,6 @@
 package com.codecool.spingboot_tasks.rest_api_client.httpclient.client;
 
+import com.codecool.spingboot_tasks.rest_api_client.httpclient.ProfileDto;
 import com.codecool.spingboot_tasks.rest_api_client.httpclient.RemoteProfile;
 import lombok.AllArgsConstructor;
 import org.springframework.core.ParameterizedTypeReference;

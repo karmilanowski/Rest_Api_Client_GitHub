@@ -1,6 +1,6 @@
 package com.codecool.spingboot_tasks.rest_api_client.service;
 
-import com.codecool.spingboot_tasks.rest_api_client.httpclient.client.ProfileDto;
+import com.codecool.spingboot_tasks.rest_api_client.httpclient.ProfileDto;
 import com.codecool.spingboot_tasks.rest_api_client.httpclient.client.ProfileHttpClient;
 import lombok.AllArgsConstructor;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
