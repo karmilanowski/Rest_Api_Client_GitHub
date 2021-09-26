@@ -12,7 +12,6 @@ import java.util.List;
 
 @Service
 @AllArgsConstructor
-
 public class ProfileService {
 
     private ProfileHttpClient profileHttpClient;

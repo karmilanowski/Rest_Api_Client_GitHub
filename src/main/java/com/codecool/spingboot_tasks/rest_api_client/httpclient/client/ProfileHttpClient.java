@@ -1,6 +1,6 @@
 package com.codecool.spingboot_tasks.rest_api_client.httpclient.client;
 
-import com.codecool.spingboot_tasks.rest_api_client.httpclient.RemoteProducts;
+import com.codecool.spingboot_tasks.rest_api_client.httpclient.RemoteProfile;
 import lombok.AllArgsConstructor;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.*;
@@ -12,7 +12,7 @@ import java.util.Collections;
 import java.util.List;
 
 @AllArgsConstructor
-public class ProfileHttpClient implements RemoteProducts {
+public class ProfileHttpClient implements RemoteProfile {
 
     private final RestTemplate restTemplate;
     private final String uri;
