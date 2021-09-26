@@ -23,8 +23,9 @@ public class ProfileService {
         Integer starCountSum = 0;
         Integer watchersCountSum = 0;
         for (ProfileDto product : products) {
-            starCountSum+=Integer.parseInt(product.getStargazersCount());
-            watchersCountSum+=Integer.parseInt(product.getWatchersCount());
+                starCountSum += Integer.parseInt(product.getStargazersCount());
+                watchersCountSum += Integer.parseInt(product.getWatchersCount());
+
         }
 
         System.out.println("Star Sum -> " + starCountSum);
